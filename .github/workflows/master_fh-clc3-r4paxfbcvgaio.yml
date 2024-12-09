@@ -49,6 +49,6 @@ jobs:
         with:
           app-name: 'fh-clc3-r4paxfbcvgaio'
           slot-name: 'Production'
-          package: '${{ env.PACKAGE_DIRECTORY }}'
+          package: ${{ env.PACKAGE_DIRECTORY }}
           respect-pom-xml: true
           
